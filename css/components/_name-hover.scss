@@ -1,0 +1,30 @@
+.namehover{
+
+
+    display: none;
+    
+    }
+    
+    
+    .nameworkhover{
+      transition: all 0.2s ease-in;
+    }
+    
+    
+    
+    
+    .nameworkhover:hover{
+      .namehover{
+        display: inline-block;
+      
+      }
+    }
+    
+    
+    
+     @include media-breakpoint-down(sm) {   .nameworkhover:hover{
+      .namehover{
+        display: none;
+      
+      }
+    } }

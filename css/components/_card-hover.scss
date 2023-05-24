@@ -1,0 +1,29 @@
+
+.card-img{
+    position: relative;
+    &:hover{
+        .pet-img-hover{
+            opacity: 1;
+        }
+        a{
+            color: $warning !important;
+        }
+    }
+}
+
+
+.pet-img-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.card1{
+    transition: .5s ease;
+    &:hover{
+        scale: 0.98;
+    }
+}
+
