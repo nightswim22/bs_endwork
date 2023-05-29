@@ -2019,8 +2019,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem #ffc107;
 }
 .form-check-input:checked {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ffc107;
+  border-color: #ffc107;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
@@ -8603,6 +8603,10 @@ textarea.form-control-lg {
 }
 .nav-item .nav-link:hover {
   color: #ffc107;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 .f-eng {
